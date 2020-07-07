@@ -19,6 +19,18 @@ form {
 .form h1 {
   text-align: left;
 }
+input[type=text]:focus {
+  border: lightblue;
+}
+input[type=email]:focus {
+  border: lightblue;
+}
+textarea {
+  resize: none;
+}
+textarea:focus {
+  border: lightblue;
+}
 button {
   font-size: 18px;
 }
